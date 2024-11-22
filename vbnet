@@ -1,0 +1,12 @@
+Running the Debugging Companion Demo:
+
+🚨 Error Detected: IndexError
+Traceback:
+Traceback (most recent call last):
+  File "debugging_companion.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "debugging_companion.py", line 56, in buggy_function
+    print(numbers[5])  # IndexError
+IndexError: list index out of range
+
+💡 Suggested Fix: The index you're trying to access is out of range. Ensure your index is within the length of the list.
